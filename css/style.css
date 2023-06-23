@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(218, 194, 241);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.conteudo input, .conteudo select, .conteudo textarea {
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Área do candidato</title>
+</head>
+<body>
+    
+    <div id="logo">
+        <figure>
+            <a href="index.html">
+            <img src="imgs/icons8-aeroporto-96.png" alt="logo da empresa"></a>
+            <figcaption>Alma</figcaption>
+
+        </figure>
+    </div>
+    <div id="menu-principal">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quemSomos.html">Quem somos</a></li>
+            <li><a href="vagas.html">Vagas</a></li>
+            <li><a href="parcerias.html">Parcerias</a></li>
+            <li><a href="areaCandidato.html">Àrea do Candidato</a></li>
+        </ul>
+    </div>
+    <div class="conteudo">
+        <h1>Área do Candidato</h1>
+        <form action="#" method="post">
+            <fieldset> <legend>Dados Pessoais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" size="20" maxlength="100" autofocus autocomplete="off">
+            <label for="nome">Nome Social</label>
+            <input type="text" id="nomeSocial" name="nomeSocial" placeholder="Digite seu nome social" size="20" maxlength="100" autocomplete="off">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" size="20" maxlength="100" autocomplete="off">
+            <label for="tel">Telefone</label>
+            <input type="text" id="tel" name="tel" placeholder="Digite seu Telefone" size="20" maxlength="11" autocomplete="off">
+            <label for="dataNasci">Data de Nascimento</label>
+            <input type="date" id="dataNasci" name="dataNasci">
+
+            <label for="sexo">Sexo</label>
+            <input type="radio" name="sexo" id="fem"><label for="sexo">Feminino</label>
+            <input type="radio" name="sexo" id="masc"><label for="sexo">Masculino</label>
+
+            <label for="genero">Genero</label>
+            <select name="genero" id="genero">
+                <option value="semResposta">Prefiro não responder</option>
+                <option value="mulherCis">Mulher cisgênero</option>
+                <option value="homemCis">Homem cisgênero</option>
+                <option value="mulhertrans">Mulher transgênero</option>
+                <option value="homemCis">Homem transgênero</option>
+                <option value="naoBinario">Não binario</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados Cadastrais</legend>
+                <label for="salario">Pretenção Salarial</label>
+                <input type="text" id="salario" name="salario" placeholder="Digite sua pretenção salarial" size="25" maxlength="10" autocomplete="off">
+                <label for="escola">Escolaridade</label>
+                <select name="escola" id="escola">
+                    <option value="fundamental">Fundamental</option>
+                    <option value="medio">Médio</option>
+                    <option value="tecnico">Técnico</option>
+                    <option value="tecnologo">Tecnologo</option>
+                    <option value="bacharel">Bacharel</option>
+                    <option value="posGraduacao">Pós-Graduação</option>
+                    <option value="mestrado">Mestrado</option>
+                    <option value="doutorado">Doutorado</option>
+                </select>
+                
+                <label for="">Fale sobre você</label>
+                <textarea name="sobreVc" id="sobreVc" maxlength="200" cols="50" rows="5" style="resize: none;" placeholder="Fale um pouco sobre você, sua qualidades, sua experiencia e etc."></textarea>
+            </fieldset>
+<br>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+
+
+
+</body>
+</html>
